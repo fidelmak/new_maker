@@ -121,7 +121,7 @@ class LoverScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: 5.h),
+              SizedBox(height: 20.h),
 
               Container(
                 child: SizedBox(
