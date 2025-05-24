@@ -37,7 +37,7 @@ class _MainScreenState extends State<MainScreen> {
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
         selectedItemColor: Colors.black,
-        unselectedItemColor: Colors.grey,
+        unselectedItemColor: Colors.black54,
         selectedFontSize: 12.sp,
         unselectedFontSize: 10.sp,
         selectedIconTheme: IconThemeData(
@@ -58,6 +58,7 @@ class _MainScreenState extends State<MainScreen> {
           }
         },
         type: BottomNavigationBarType.fixed,
+        backgroundColor: Colors.yellow.shade800.withOpacity(0.6),
         showUnselectedLabels: true,
         showSelectedLabels: false,
         items: [
@@ -96,6 +97,7 @@ class _MainScreenState extends State<MainScreen> {
           ),
         ],
       ),
+      backgroundColor: Colors.white,
       body: Padding(
         padding: EdgeInsets.all(16.sp),
         child: SingleChildScrollView(
