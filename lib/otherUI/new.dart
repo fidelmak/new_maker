@@ -81,7 +81,7 @@ class LoverScreen extends StatelessWidget {
               ),
 
               Text(
-                'Secure Transaction &'.toUpperCase(),
+                'Secure Transactions &'.toUpperCase(),
                 style: TextStyle(
                   fontSize: getMySize(context).width / 25.sp,
                   fontWeight: FontWeight.w700,
@@ -142,7 +142,7 @@ class LoverScreen extends StatelessWidget {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10.r),
                       ),
-                      backgroundColor: Colors.yellow,
+                      backgroundColor: Colors.yellow.shade800,
                       foregroundColor: Colors.black,
                     ),
                     child: Text(
